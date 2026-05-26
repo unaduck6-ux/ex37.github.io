@@ -1,0 +1,19 @@
+// 1. 計算圓周長的函數
+function calcCircumfrence(radius) {
+    // 圓周長公式: 2 * 𝜋 * r
+    const circumference = 2 * Math.PI * radius;
+    console.log(`The circumference is ${circumference}`);
+}
+
+// 2. 計算圓面積的函數
+function calcArea(radius) {
+    // 圓面積公式: 𝜋 * r^2
+    const area = Math.PI * Math.pow(radius, 2);
+    console.log(`The area is ${area}`);
+}
+
+// --- 測試範例 ---
+const testRadius = 5;
+
+calcCircumfrence(testRadius); // 輸出: The circumference is 31.41592653589793
+calcArea(testRadius);         // 輸出: The area is 78.53981633974483
